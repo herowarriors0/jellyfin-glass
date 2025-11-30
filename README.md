@@ -2,8 +2,11 @@
 
 A sleek and modern **theme for Jellyfin** inspired by the **glassmorphism design trend**. Customize your Jellyfin experience with this visually appealing and user-friendly theme.
 
-This theme is a fork of the original design shared on Reddit: [My custom CSS for Movies/TV show sections](https://www.reddit.com/r/jellyfin/comments/12wpxry/my_custom_css_for_moviestv_show_sections/).
+This theme is a fork of [alexyle's jellyfin-theme](https://github.com/alexyle/jellyfin-theme).
+It has been optimized for better performance and comes with additional features to enhance your experience.
 
+> [!IMPORTANT]  
+> Liquid glass only works on Chromium-based browsers
 ---
 
 ## 🎨 Features
@@ -54,16 +57,10 @@ This theme is a fork of the original design shared on Reddit: [My custom CSS for
 Follow these simple steps to apply the Glassmorphism theme to your Jellyfin instance:
 
 1. Open your Jellyfin dashboard.
-2. Navigate to `Dashboard > Settings > Custom CSS`.
+2. Navigate to `Dashboard > General > Custom CSS`.
 3. Paste the following CSS import link:
 
    ```css
-   @import 'https://cdn.jsdelivr.net/gh/alexyle/jellyfin-theme@main/glassmorphism/theme.css';
+   @import 'hhttps://cdn.jsdelivr.net/gh/herowarriors0/Jellyfin-Liquid-Glass@main/glassmorphism/theme.css';
     ```
-
-   with liquid glass (only works on Chromium-based browsers)
-
-   ```css
-   @import 'https://cdn.jsdelivr.net/gh/alexyle/jellyfin-theme@liquid-glass/glassmorphism/theme.css';
-   ```
    
